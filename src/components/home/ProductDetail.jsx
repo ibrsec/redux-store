@@ -49,8 +49,8 @@ const ProductDetail = () => {
         <p className="mb-3 font-normal text-black   ">
           Category: {category}
         </p>
-        <span className="ml-5 text-black">{price}$</span>
-        <div className="flex items-center justify-left mt-1 flex-wrap gap-1">
+        <span className="my-5 text-black">Price: {price}$</span>
+        <div className="my-3 flex items-center justify-left mt-1 flex-wrap gap-1">
            <button className="btn" onClick={()=>navigate(-1)}>Back</button>
           <button className="btn text-sm" onClick={() => handleAddTOChart(id)}>
             Add to Cart
