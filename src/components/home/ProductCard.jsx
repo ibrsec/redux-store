@@ -38,7 +38,7 @@ const ProductCard = ({ item }) => {
         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 line-clamp-3">
           {description}
         </p>
-        <div className="flex items-center justify-between my-2 border">
+        <div className="flex items-center justify-between my-2 flex-wrap">
           <span>Category: <span className="text-green-500">{category}</span></span>
           <span>Price: <span className="text-blue-600">{price}$</span></span> 
         </div>

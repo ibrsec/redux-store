@@ -11,8 +11,9 @@ const ProductDetail = () => {
   const products = useSelector((state) => state.product.products);
 
   console.log("products", products);
-  const item = products.filter((item) => item.id == routeID)[0];
+  const item = products?.filter((item) => item?.id == routeID)[0] || JSON.parse(localStorage.getItem("itemDetailPage"));
   console.log("item", item);
+  localStorage.setItem("itemDetailPage",JSON.stringify(item));
 
   const { id, category, description, image, price, title } = item;
   const basketGlobal = useSelector((state) => state.product.basket);
