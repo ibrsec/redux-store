@@ -21,7 +21,7 @@ const ProductCard = ({ item }) => {
   }, [basketGlobal]);
 
   return (
-    <div className=" min-h-[450px] max-h-[510px]  bg-white border border-gray-200 rounded-lg shadow ">
+    <div className=" min-h-[450px] h-auto  bg-white border border-gray-200 rounded-lg shadow ">
       <a href="#">
         <img
           className="rounded-t-lg h-[50%] w-[100%] object-contain"

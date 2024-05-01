@@ -30,7 +30,7 @@ const ProductDetail = () => {
 
   return (
     <div className="container-box flex justify-center my-5">
-    <div className=" max-w-[600px] max-h-[650px]  bg-white border border-gray-200 rounded-lg shadow ">
+    <div className=" max-w-[600px] max-h-[700px] bg-white border border-gray-200 rounded-lg shadow ">
       <a href="#">
         <img
           className="rounded-t-lg h-[40%] w-[100%] object-contain"
