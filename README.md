@@ -1,70 +1,190 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
+ 
+ 
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/ibrsec/redux-store/">
+    <img src="./src/img/logo.png" alt="Logo" width="250"   >
+  </a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center">Redux Store App</h3>
 
-## Available Scripts
+  <p align="center">
+    An awesome Redux Store App
+    <a href="https://github.com/ibrsec/redux-store"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://redux-store-ruby.vercel.app/">View Demo</a>
+    ·
+    <a href="https://github.com/ibrsec/redux-store/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/ibrsec/redux-store/issues">Request Feature</a>
+  </p>
+</div>
 
-In the project directory, you can run:
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>📎 Table of Contents 📎 </summary>
+  <ol>
+    <li><a href="#about-the-project">About The Project</a></li>
+     <!-- <li><a href="#figma">Figma</a></li> -->
+     <li><a href="#overview">Overview</a></li>
+     <li><a href="#quick-setup">Quick Setup</a></li>
+     <li><a href="#directory-structure">Directory structure</a></li>
+     <li><a href="#built-with">Built With</a></li>
+    <!-- <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li> -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    
+  </ol>
+</details>
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- ABOUT THE PROJECT -->
+<a name="about-the-project"></a>
+## ℹ️ About The Project
+ 
+[![redux-store](./public/project.png)](https://redux-store-ruby.vercel.app/) 
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- ## Figma 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<a href="https://www.figma.com/file/ePyCHKsx2ODB32uLgyUEEd/bootstrap-home-page?type=design&node-id=0%3A1&mode=design&t=edDzadCB9Ev5FS1a-1">Figma Link</a>  
 
-### Code Splitting
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+--- -->
+<a name="overview"></a>
+## 👀 Overview
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+ 
+🎯 Used React environment</br>
+🖥 Products listed on products with categories</br>
+🖥 Products details can be displayed</br>
+🖥 Products can be addted to the cart</br>
+🖥 Cart can be managed with clicking on cart icon</br>
+🔩 Used redux for for global state    </br> 
+<!-- 🌱 ÷Screen and search the Legends on the app</br> -->
+<!-- 💪   </br> -->
+<!-- 🐞 Check the finished tasks   </br> -->
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<a name="quick-setup"></a>
+## 🛫 Quick Setup
 
-### `yarn build` fails to minify
+```sh
+# clone the project
+git clone https://github.com/ibrsec/redux-store.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# enter the project directory
+cd redux-store
+
+# install dependency
+npm install || yarn install
+
+# develop
+npm run dev || yarn start
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- ## 🐞 Debug
+
+![redux-store.gif](/redux-store.gif) -->
+
+
+
+
+
+
+
+
+<a name="directory-structure"></a>
+## 📂 Directory structure 
+
+```diff
+redux-store  (folder)
+  |          
+  |---public (folder) 
+  |                
++ |---src (folder)    
+  |     |---pages (folder)          
+  |     |           
+  |     |---components (folder)  
+  |     |           
+  |     |---img (folder)  
+  |     |           
+  |     |---router (folder)  
+  |     |          
+  |     |---store (folder)  (store and slices)
+  |     |          
+  |     |---App.js
+  |     |---App.css
+  |     |---Index.js
+  |     └---Index.css
+  |         
+  |----package.json
+  |----tailwind.config.js
+  |----yarn.lock
+  └----readme.md 
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+<a name="built-with"></a>
+### 🏗️ Built With
+
+ 
+<!-- https://dev.to/envoy_/150-badges-for-github-pnk  search skills-->
+
+ <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
+ <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white&color=red"> 
+ <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
+ <!-- <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">  -->
+ <img src="https://img.shields.io/badge/tailwind-563D7C?style=for-the-badge&logo=tailwind&logoColor=white"> 
+ <img src="https://img.shields.io/badge/axios-CC6699?style=for-the-badge&logo=axios&logoColor=white"> 
+ <!-- <img src="https://img.shields.io/badge/context_api-AB4BFE?style=for-the-badge&logo=context&logoColor=FFC920">  -->
+ <img src="https://img.shields.io/badge/redux-AB4BFE?style=for-the-badge&logo=redux&logoColor=FFC920"> 
+ <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"> 
+ <!-- <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white">  -->
+ 
+
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
